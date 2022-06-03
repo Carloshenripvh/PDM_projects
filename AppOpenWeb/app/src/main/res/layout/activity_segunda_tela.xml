@@ -41,11 +41,15 @@
         app:layout_constraintTop_toBottomOf="@id/txt_tela2" />
 
     <ImageButton
-        android:layout_width="129dp"
-        android:layout_height="125dp"
+        android:layout_width="133dp"
+        android:layout_height="121dp"
         android:layout_marginTop="60dp"
+        android:scaleType="fitXY"
+        android:maxWidth="120dp"
+        android:maxHeight="100dp"
         android:onClick="abrirNavegador"
         android:src="@mipmap/ic_web"
+        android:background="?attr/selectableItemBackground"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@id/bt_voltar" />
